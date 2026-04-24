@@ -118,9 +118,12 @@ These features have the strongest influence on pricing.
 ## 📁 Project Structure
 
 car-price-prediction/
-│
 ├── CarPrice_Assignment.csv
+
+
 ├── car_price_model.ipynb / .py
+
+
 ├── README.md
 
 ---
