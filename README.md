@@ -1,24 +1,14 @@
 # 🚗 Car Price Prediction using Machine Learning
 
-## 📌 Project Overview
+## 📌 Problem Statement
 
-This project aims to analyze the factors affecting car prices in the US market and build machine learning models to predict car prices accurately.
-
-A Chinese automobile company plans to enter the US market and wants to understand:
-
-* Which variables significantly affect car prices
-* How different features influence pricing
-* How to optimize design and pricing strategy
+A Chinese automobile company plans to enter the US market and wants to understand the factors affecting car prices. The goal is to identify key variables influencing pricing and build a model to predict car prices accurately.
 
 ---
 
-## 🎯 Objectives
+## 🎯 Business Goal
 
-* Perform data preprocessing and feature engineering
-* Explore the dataset using visualizations
-* Build and compare multiple regression models
-* Identify the most important features affecting price
-* Improve model performance using hyperparameter tuning
+The objective is to model car prices based on various features so that the company can understand pricing dynamics and make informed decisions regarding product design and market strategy.
 
 ---
 
@@ -39,10 +29,10 @@ The dataset contains various features of cars such as:
 
 ### 1. Data Preprocessing
 
-* Removed unnecessary columns (`car_ID`)
+* Removed unnecessary column (`car_ID`)
 * Extracted car brand from `CarName`
 * Encoded categorical variables using Label Encoding
-* Prepared dataset for modeling
+* Prepared the dataset for machine learning models
 
 ---
 
@@ -59,8 +49,6 @@ Visualizations were used to understand:
 
 ### 3. Models Implemented
 
-The following regression models were used:
-
 * Linear Regression
 * Decision Tree Regressor
 * Random Forest Regressor ⭐
@@ -69,7 +57,7 @@ The following regression models were used:
 
 ---
 
-### 4. Evaluation Metrics
+### 4. Model Evaluation
 
 Models were evaluated using:
 
@@ -81,13 +69,13 @@ Models were evaluated using:
 
 ## 🏆 Best Model
 
-The **Random Forest Regressor** performed the best.
+The **Random Forest Regressor** performed the best based on evaluation metrics.
 
 ### Why?
 
 * Captures complex non-linear relationships
 * Reduces overfitting using ensemble learning
-* Provides reliable predictions on unseen data
+* Provides better generalization on unseen data
 
 ---
 
@@ -113,23 +101,22 @@ These features have the strongest influence on pricing.
 
 ## 📈 Results
 
-* Models achieved strong predictive performance
-* Ensemble models outperformed simple models
-* Tuned model showed improved accuracy
+* Ensemble models outperformed simpler models
+* The tuned model achieved improved performance
+* The model effectively predicts car prices
 
 ---
 
 ## 💡 Key Insights
 
-* Larger engine size and higher horsepower increase car price
-* Premium brands have significantly higher pricing
-* Heavier and wider cars tend to be more expensive
+* Engine size and horsepower strongly influence car price
+* Premium brands have higher average prices
+* Heavier vehicles tend to be more expensive
 
 ---
 
 ## 📁 Project Structure
 
-```
 car-price-prediction/
 │
 ├── CarPrice_Assignment.csv
@@ -139,9 +126,9 @@ car-price-prediction/
 
 ---
 
+
 ## 🏁 Conclusion
 
-This project helps understand car pricing dynamics and supports data-driven decision-making for entering a new market.
+This project helps understand the key factors influencing car prices and provides a reliable model for predicting prices in a new market.
 
 ---
-
