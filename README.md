@@ -1,18 +1,18 @@
 # 🚗 Car Price Prediction using Machine Learning
 
-## 📌 Problem Statement
+## Problem Statement
 
 A Chinese automobile company plans to enter the US market and wants to understand the factors affecting car prices. The goal is to identify key variables influencing pricing and build a model to predict car prices accurately.
 
 ---
 
-## 🎯 Business Goal
+## Business Goal
 
 The objective is to model car prices based on various features so that the company can understand pricing dynamics and make informed decisions regarding product design and market strategy.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The dataset contains various features of cars such as:
 
@@ -67,7 +67,7 @@ Models were evaluated using:
 
 ---
 
-## 🏆 Best Model
+## Best Model
 
 The **Random Forest Regressor** performed the best based on evaluation metrics.
 
@@ -79,7 +79,7 @@ The **Random Forest Regressor** performed the best based on evaluation metrics.
 
 ---
 
-## 🔍 Feature Importance
+## Feature Importance
 
 Top factors affecting car price:
 
@@ -92,14 +92,14 @@ These features have the strongest influence on pricing.
 
 ---
 
-## ⚙️ Hyperparameter Tuning
+## Hyperparameter Tuning
 
 * Used GridSearchCV to optimize Random Forest parameters
 * Improved model performance and generalization
 
 ---
 
-## 📈 Results
+## Results
 
 * Ensemble models outperformed simpler models
 * The tuned model achieved improved performance
@@ -107,7 +107,7 @@ These features have the strongest influence on pricing.
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 * Engine size and horsepower strongly influence car price
 * Premium brands have higher average prices
@@ -115,21 +115,8 @@ These features have the strongest influence on pricing.
 
 ---
 
-## 📁 Project Structure
 
-car-price-prediction/
-├── CarPrice_Assignment.csv
-
-
-├── car_price_model.ipynb / .py
-
-
-├── README.md
-
----
-
-
-## 🏁 Conclusion
+## Conclusion
 
 This project helps understand the key factors influencing car prices and provides a reliable model for predicting prices in a new market.
 
