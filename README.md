@@ -25,7 +25,7 @@ The dataset contains various features of cars such as:
 
 ---
 
-## ⚙️ Project Workflow
+## Project Workflow
 
 ### 1. Data Preprocessing
 
