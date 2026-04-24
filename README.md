@@ -122,12 +122,8 @@ car-price-prediction/
 ├── CarPrice_Assignment.csv
 ├── car_price_model.ipynb / .py
 ├── README.md
-```
 
 ---
-
-
-
 
 
 ## 🏁 Conclusion
